@@ -1,5 +1,5 @@
 
-let result = prompt();
+let result = 3;
 
 console.log("Chatbot: Olá! Como posso ajudá-lo hoje?");
 
@@ -67,6 +67,7 @@ switch(result){
     console.log("Obrigado por utilizar nosso serviço! Se precisar de mais alguma coisa, é só chamar. Até logo!");
     break;
     default:
-    console.log("opção invalida!.Digite de 1 a 10");
+    console.log("Opção invalida!")
+    console.log("Por favor digite um opção valida de 1 a 10 ");
 
 }
